@@ -377,9 +377,9 @@ git --version
     - our project must be in local mechine. That means it must not be in cloud storage
     - while pushing first time, we may face some configuration steps
   - push to github (follow the instruction on github after creating new repo on github)
-    git remote add origin https://github.com/your-profile/repo-name.git
-    git branch -M main
-    git push -u origin main
+    - git remote add origin https://github.com/your-profile/repo-name.git
+    - git branch -M main
+    - git push -u origin main
   - go to netlify and deploy with existing repo
   - if we change something and want to update on gitub:
     - git add .
